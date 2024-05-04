@@ -71,6 +71,7 @@
 .welcome {
   display: block;
   margin-right: 50%;
+  padding-left: 3%;
   font-family: "Caveat";
   font-size: 50px;
   text-shadow: 1px 1px #092a28;
@@ -81,6 +82,8 @@
   text-align: center;
   font-family: "Caveat";
   font-size: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
   text-shadow: 1px 1px gray;
   color: #063c49;
 }
@@ -88,7 +91,7 @@
 .powered {
   padding-top: 2%;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .powered a {
@@ -230,10 +233,7 @@
 
 .year {
   display: flex;
-}
-
-.Year0 {
-  position: relative;
+  justify-content: flex-start;
 }
 
 .year_start {
@@ -242,7 +242,7 @@
   font-size: 3rem;
   margin-top: 2%;
   margin-left: 20%;
-  text-shadow: 1px 2px gray;
+  text-shadow: 1px 1px gray;
   font-style: bold;
   color: #063c49;
 }
@@ -253,7 +253,7 @@
   font-size: 3rem;
   margin-top: 2%;
   margin-left: 20%;
-  text-shadow: 1px 2px gray;
+  text-shadow: 1px 1px gray;
   color: #063c49;
 }
 
@@ -262,14 +262,13 @@
   padding: 10px 10px;
   height: auto;
 }
+
 .letseeP {
   font-family: "pacifico";
   margin-right: 35%;
   color: #063c49;
   letter-spacing: 3px;
-  text-shadow: 1px 1px gray;
-  color: #54a7a2;
-  
+
 }
 
 .letsee img {
@@ -299,6 +298,7 @@
 .end {
   text-align: center;
   margin-top: 5%;
+  font-size: 1.3rem;
 }
 
 .ending_img {
@@ -317,6 +317,16 @@
   .main-photo .wife {
     font-size: 4rem;
   }
+
+  .year_start {
+    font-size: 2.5rem;
+    margin-left: 13%;
+  }
+
+  .year_end {
+    font-size: 2.5rem;
+    margin-left: 15%;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -328,15 +338,15 @@
   }
 
   .year_start {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 13%;
   }
-  
+
   .year_end {
-    font-size: 2.5rem;
-    margin-left: 15%;
+    font-size: 2rem;
+    margin-left: 18%;
   }
-  
+
   .final_photo {
     position: absolute;
     margin-left: 40%;
@@ -346,11 +356,17 @@
   }
 
   .mgk_home {
-    margin-top: 10%;
+    margin-top: 12%;
+    margin-left: 85%;
   }
 
   .intern_photo {
     margin-left: 85%;
+    margin-top: 10%;
+  }
+
+  .propose_photo {
+    margin-left: 35%;
     margin-top: 10%;
   }
 
@@ -361,6 +377,235 @@
 
   .letseeP {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-photo .wife {
+    font-size: 2rem;
+  }
+
+  .main-photo .husband {
+    font-size: 2rem;
+  }
+
+  .intern_photo {
+    margin-left: 85%;
+    margin-top: 14%;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .year_start {
+    font-size: 1.5rem;
+    margin-left: 13%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .year_end {
+    font-size: 1.5rem;
+    margin-left: 23%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .welcome {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+
+  .propose_photo {
+    margin-left: 38%;
+    margin-top: 10%;
+  }
+
+  .main-photo .heartImage {
+    width: 2rem;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 15%;
+  }
+
+  .wedding h1 {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 15%;
+  }
+
+  .letseeP {
+    font-size: 1rem;
+    margin-right: 35%;
+  }
+
+  .letsee img {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-photo .wife {
+    font-size: 2rem;
+  }
+
+  .main-photo .husband {
+    font-size: 2rem;
+  }
+
+  .intern_photo {
+    margin-left: 85%;
+    margin-top: 16%;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .year_start {
+    font-size: 1.3rem;
+    margin-left: 13%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .year_end {
+    font-size: 1.3rem;
+    margin-left: 23%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .welcome {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+
+  .propose_photo {
+    margin-left: 38%;
+    margin-top: 10%;
+  }
+
+  .main-photo .heartImage {
+    width: 2rem;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 15%;
+  }
+
+  .wedding h1 {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 15%;
+  }
+
+  .letseeP {
+    font-size: 1rem;
+    margin-right: 35%;
+  }
+
+  .letsee img {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-photo .wife {
+    font-size: 2rem;
+  }
+
+  .main-photo .husband {
+    font-size: 2rem;
+  }
+
+  .intern_photo {
+    margin-left: 85%;
+    margin-top: 16%;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+
+  .year_start {
+    font-size: 1.3rem;
+    margin-left: 13%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .year_end {
+    font-size: 1.3rem;
+    margin-left: 18%;
+    text-shadow: 1px 1px gray;
+  }
+
+  .welcome {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+
+  .propose_photo {
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+
+  .main-photo .heartImage {
+    width: 2rem;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 20%;
+  }
+
+  .wedding h1 {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 15%;
+    
+  }
+
+  .letseeP {
+    font-size: 1rem;
+    margin-right: 35%;
+  }
+
+  .letsee img {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+
+  .end {
+    font-size: 0.86rem;
+  }
+
+  .thank {
+    font-size: 1.3rem;
+  }
+
+  .powered {
+    font-size: 0.7rem;
   }
 }
 
@@ -395,7 +640,7 @@
 
   .year_end {
     font-size: 1.3rem;
-    margin-left: 57%;
+    margin-left: 15%;
   }
 
   .welcome {
@@ -424,6 +669,18 @@
   .main-photo .heartImage {
     width: 2rem;
   }
+
+  .end {
+    font-size: 0.8rem;
+  }
+
+  .thank {
+    font-size: 1.3rem;
+  }
+
+  .powered {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -441,20 +698,20 @@
   }
 
   .year_start {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 13%;
-  text-shadow: 1px 1px gray;
+    text-shadow: 1px 1px gray;
   }
-  
+
   .year_end {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 15%;
-      text-shadow: 1px 1px gray;
+    text-shadow: 1px 1px gray;
   }
 
   .welcome {
-    margin-right: 25%;
-    font-size: 30px;
+    margin-right: 20%;
+    font-size: 1.3rem;
   }
 
   .thank {
@@ -476,10 +733,7 @@
   }
 
   .wedding h1 {
-    font-size: 1.2rem;
-    padding-left: 30px;
-    padding-right: 5px;
-    margin-top: 15%;
+    font-size: 1rem;
   }
 
   .letseeP {
@@ -491,22 +745,48 @@
     width: 40%;
     margin-bottom: 5%;
   }
+
+  .intern_photo {
+    margin-left: 93%;
+    margin-top: 20%;
+  }
+
+  .end {
+    font-size: 0.8rem;
+  }
+
+  .thank {
+    font-size: 1.3rem;
+  }
+
+  .powered {
+    font-size: 0.7rem;
+  }
 }
 
 @media screen and (max-width: 376px) {
   .year_start {
-    margin-left: 13%;
+    margin-left: 12%;
     font-size: 1.1rem;
   }
 
   .final_photo {
     margin-left: 40%;
-    margin-top: 23%;
+    margin-top: 25%;
   }
 
   .intern_photo {
-    margin-left: 90%;
-    margin-top: 20%;
+    margin-left: 93%;
+    margin-top: 30%;
+  }
+
+  .welcome {
+    margin-right: 20%;
+    font-size: 1.2rem;
+  }
+
+  .wedding h1 {
+    font-size: 1rem;
   }
 
   .propose_photo {
@@ -520,46 +800,87 @@
   }
 
   .year_end {
-    margin-left: 58;
+    margin-left: 12%;
     font-size: 1.1rem;
+  }
+
+  .letseeP {
+    margin-right: 23%;
+    font-size: 0.8rem;
+  }
+
+  .end {
+    font-size: 0.8rem;
+  }
+
+  .thank {
+    font-size: 1.3rem;
+  }
+
+  .powered {
+    font-size: 0.7rem;
   }
 }
 
 @media screen and (max-width: 321px) {
   .year_start {
-    margin-left: 13%;
-    margin-top: 13%;
-    font-size: 1rem;
+    margin-left: 15%;
+    margin-top: 4%;
+    font-size: 0.8rem;
+    text-shadow: 0.5px 0.5px gray;
   }
 
   .mgk_home {
     margin-left: 92%;
-    margin-top: 25%;
+    margin-top: 35%;
+  }
+
+  .intern_photo {
+    margin-left: 90%;
+    margin-top: 35%;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 26%;
   }
 
   .year_end {
-    margin-left: 58%;
-    margin-top: 13%;
-    font-size: 1rem;
+    margin-left: 22%;
+    margin-top: 4%;
+    font-size: 0.8rem;
+    text-shadow: 0.5px 0.5px gray;
+  }
+
+  .end {
+    font-size: 0.7rem;
   }
 
   .welcome {
     margin-right: 20%;
-    font-size: 30px;
+    font-size: 1.2rem;
+  }
+
+  .wedding h1 {
+    font-size: 1rem;
   }
 
   .thank {
-    font-size: 30px;
+    font-size: 1.2rem;
   }
-  
+
+  .powered {
+    font-size: 0.6rem;
+  }
+
   .letseeP {
     margin-right: 23%;
+    font-size: 0.6rem;
   }
 
   .letsee img {
     width: 40%;
     margin-left: 40%;
     margin-top: 0;
-    
   }
 }
